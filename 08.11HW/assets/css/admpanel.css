@@ -1,0 +1,109 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+* button {
+  transition: 0.2s;
+}
+* button:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+body {
+  background: #283048;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header .header h1 {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 50px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: whitesmoke;
+}
+header .buttons {
+  margin-left: 8%;
+  display: flex;
+  gap: 23px;
+}
+header .buttons button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+header .buttons button a {
+  font-size: 18px;
+  text-decoration: none;
+}
+header .buttons .return a {
+  color: rgb(0, 0, 0);
+}
+header .buttons .add {
+  background-color: rgba(63, 170, 63, 0.397);
+}
+header .buttons .add a {
+  color: rgb(255, 255, 255);
+}
+
+.itemscont {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 10px;
+}
+.itemscont .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  background-color: rgb(239, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+.itemscont .item .itemid {
+  background-color: rgba(76, 77, 76, 0.411);
+  font-size: 28px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  border: 1px dashed rgb(49, 37, 37);
+}
+.itemscont .item .itemimage img {
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+}
+.itemscont .item .itemname {
+  font-size: 24px;
+  color: rgb(7, 68, 77);
+}
+.itemscont .item .itemproffesion {
+  font-size: 24px;
+  color: rgb(7, 68, 77);
+}
+.itemscont .item .itembuttoncont {
+  display: flex;
+  gap: 10px;
+}
+.itemscont .item .itembuttoncont button {
+  padding: 5px 15px;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.itemscont .item .itembuttoncont .itemdelbutton {
+  background-color: rgb(230, 169, 169);
+  color: rgb(153, 38, 38);
+}
+.itemscont .item .itembuttoncont .itemeditbutton {
+  background-color: rgb(169, 203, 230);
+}
+.itemscont .item .itembuttoncont .itemeditbutton a {
+  color: rgb(38, 149, 153);
+  text-decoration: none;
+}/*# sourceMappingURL=admpanel.css.map */

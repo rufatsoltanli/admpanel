@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardscont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 40px;
+
+    .card {
+        border: 0px;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 290px;
+
+        background-color: rgba(106, 152, 173, 0.158);
+
+        .cardName {
+            font-size: 24px;
+            background-color: rgba(129, 236, 227, 0.411);
+            color: rgb(47, 52, 63);
+            width: 100%;
+            border: 1px dashed gray;
+
+        }
+
+        .cardProffesion {
+            font-size: 16px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(19, 58, 73);
+            font-weight: bold;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .cardPhoto {
+            img {
+                width: 250px;
+                height: 150px;
+            }
+        }
+    }
+
+}
